@@ -1,0 +1,42 @@
+$myFont: Helvetica, sans-serif;
+$myColor: teal;
+$myFontSize: 20px;
+$myWidth: 500px;
+$newColor: darkblue;
+$myContent: inline-flex;
+
+body {
+  font-family: $myFont;
+  font-size: $myFontSize;
+  color: $myColor;
+  background-color: $newColor;
+  width: $myContent;
+
+}
+
+#container {
+  width:  $myContent;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+#top-level {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 50px;
+}
+
+#middle-level {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#bottom-level {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
